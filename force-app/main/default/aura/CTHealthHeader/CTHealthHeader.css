@@ -1,0 +1,24 @@
+.THIS .header-item{
+    /* @sldsValidatorIgnore */
+    /* @sldsValidatorIgnore */
+    font-size: small;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.THIS .green {
+    color: green;
+}
+
+.THIS .yellow {
+    color: yellow;
+}
+
+.THIS .orange {
+    color: darkorange;
+}
+
+.THIS .red {
+    color: red;
+}
