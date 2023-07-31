@@ -2,7 +2,7 @@ public with sharing class LeadAsynchronous {
 
 
     @future
-    public static void updateLeadRecords(List<Id> listLeadExistingIds){
+    public static void updateLeadRecords(Set<Id> listLeadExistingIds){
 
         List<Lead> listLeadExisting = [SELECT Id, LeadSource FROM Lead WHERE Id IN :listLeadExistingIds];
 
